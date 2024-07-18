@@ -1,0 +1,400 @@
+
+
+
+*{
+
+    margin: 0;
+padding: 0;
+}
+ .hero-bg{
+   
+    background-image: url('assets/Hero-bg.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+width: 1440px;
+height: 652px;
+
+ }
+ .hero-bg-container{
+
+width: 998px;
+height: 582px;
+ }
+ .hero-bg-heading{
+    
+    color: rgb(13, 19, 33);
+    
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+ }
+
+ .hero-bg-paragrph{
+width: 852px;
+height: 52px;
+margin: 0 auto;
+    
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+ }
+ .hero-bg-button{
+width: 208px;
+height: 66px;
+padding: 21px 24px 21px 24px;
+margin: 32px 0px;
+border-radius: 8px;
+color: rgb(255, 255, 255);
+background: rgb(13, 19, 33);
+
+ }
+
+ .hero-bg-button a{
+    color: white;
+    text-decoration: none;
+ }
+ #web-dev{
+    
+
+width: 1140px;
+height: 1470px;
+
+padding: 80px 97px 80px 97px;
+border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.02);
+margin: 0 auto;
+text-align: center;
+margin-top: 50px;
+ }
+
+ .web-dev-title{
+   
+width: 852px;
+height: 115px;
+margin-left: 130px;
+ }
+ .web-dev-heaing{
+    color: rgb(13, 19, 33);
+
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+
+text-align: center;
+ }
+ .web-dev-paragraph{
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+
+ }
+ #section{
+  
+    
+
+width: 946px;
+height: 336px;
+
+display: flex;
+
+padding: 48px;
+gap: 125px;
+margin: 32px 0px;
+border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+ }
+ .section-text{
+    width: 50%;
+  
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ .section-img{
+    width: 50%;
+    margin-right: 0px;
+    
+ }
+
+.section-heading{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 390px;
+    height: 72px;
+   
+}
+.section-paragraph{
+    opacity: 0.7;
+    width: 468px;
+    height: 75px;
+    color: rgb(13, 19, 33);
+
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+
+text-align: left;
+
+}
+.section-btn{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    width: 150px;
+    height: 48px;
+    padding: 12px 20px 12px 20px;
+
+
+}
+.section-btn a {
+    text-decoration: none;
+    color:black;
+}
+#inspiration{
+width: 1140px;
+height: 777px;
+display: flex;
+gap: 48px ;
+flex-direction: column;
+justify-content: space-between;
+text-align: center;
+margin-top: 70px;
+}
+.inspiration-title{
+ width: 852px;
+height: 130px;
+
+margin-top: 0px;
+margin-left: 150px;
+}
+
+.inspiration-title h1{
+    font-size: 32px;
+font-weight: 800;
+
+}
+.inspiration-paragraph{
+ opacity: 0.7;
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;   
+}
+.motivational-video{
+
+width: 1076px;
+height: 550px;
+
+
+padding: 32px;
+
+
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 48px 0px;
+
+
+}
+.motivational-video iframe {
+
+    width: 100%;
+    height: 65vh;
+    border-radius: 10px;
+}
+#current-target{
+    margin-top: 100px;
+    
+    width: 1140px;
+height: 463px;
+}
+.current-target-text{
+
+  
+    width: 852px;
+height: 115px;
+margin-left: 115px;
+
+}
+.current-target-text h1 {
+
+    font-size: 32px;
+    font-weight: 800;
+
+}
+
+.current-target-text-paragraph{
+
+    width: 852px;
+    height: 115px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+   
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+   
+    text-align: center;
+
+}
+.card-holder{
+ 
+    width: 1140px;
+height: 300px;
+display: flex;
+justify-content: space-around;
+}
+
+.card-html{
+    
+    border-radius: 16px;
+
+    background: rgba(255, 76, 30, 0.05);
+    width: 284px;
+height: 220px;
+padding: 40px;
+}
+.card-css{
+  
+    border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
+width: 284px;
+height: 220px;
+padding: 40px;
+}
+.card-JS{
+    
+
+    background: rgba(255, 223, 0, 0.05);
+    width: 284px;
+    height: 220px;
+    padding: 40px;
+}
+#support{
+
+    background-image:  url('assets/handshake.jpg');
+ background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+width: 1044px;
+height: 186px;
+padding: 64px 48px  64px 48px ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+
+
+}
+#support h1{
+
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px; 
+    text-align: center;
+    width: 230px;       
+ height: 36px;
+  margin-top: -70px;
+
+}
+#support p{ 
+   margin-top: 20px;
+   margin-bottom: 50px ;
+    width: 606px;
+    height: 52px;
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+   
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+
+
+
+
+
+
+}
+#support  input{
+
+    color: rgba(13, 19, 33, 0.4);
+
+    font-size: 16px;
+    font-weight: 400;
+    background: rgb(255, 255, 255);
+    columns: 100px ;
+    border: none;
+width: 508px ;
+height: 19px ;
+padding: 19px 20px 19px 20px;
+border-radius: 8px;
+}
+
+#support  button{
+width: 110px ;
+height: 58px;
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+color: rgb(13, 19, 33);
+
+font-weight: 600;
+border: none;
+}
+
+
+
+.Contact-details{
+
+    display: flex;
+    padding:  32px 300px 32px 150px ;
+    width: 100%;
+    height: 36px;
+    justify-content: space-between;
+  
+
+background: rgba(13, 19, 33, 0.03);
+
+margin-left: -150px;
+margin-top: 70px;
+
+}
+.card-holder a {
+    color: black;
+    font-weight: 700;
+  
+}
+
+
+
