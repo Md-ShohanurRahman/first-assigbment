@@ -6,6 +6,8 @@
     margin: 0;
 padding: 0;
 }
+
+/*  add style to header  */
  .hero-bg{
    
     background-image: url('assets/Hero-bg.png');
